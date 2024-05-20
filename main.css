@@ -1,0 +1,71 @@
+html {
+    background: url('bg.png') no-repeat;
+    background-size: 100% 100%;
+}
+body {
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    font-family: 'Roboto';
+}   
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    background:#fff;
+    padding: 20px;
+}
+.nav {
+    width: 1000px;
+    margin: 0 auto;
+}
+.nav::after {
+    display: block;
+    content: ' ';
+    clear: both;
+}
+
+.nav img {
+    width: 150px;
+}
+
+.nav ul {
+
+}
+
+.nav li {
+    float: left;
+    list-style: none;
+}
+
+.nav a {
+    display: block;
+    padding: 15px 20px;
+    background:#000;
+    margin: 10px;
+    color:#fff;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.img {
+    margin: 10px 10px;
+    width: 150px;
+    height: 200px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.div_0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div_1 {
+    cursor: pointer;
+    width: 170px;
+    height: 270px;
+    transition: all 0.3s ease 0s;
+}
+
+.div_1:hover {
+    z-index: 2;
+    transform: scale(2.0);
+}
